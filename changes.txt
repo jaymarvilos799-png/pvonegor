@@ -1,0 +1,410 @@
+PVO Negros Oriental website - change log (24 Sep 2026)
+=====================================================
+
+1. New masthead banner (home page)
+   - images/masthead-banner.jpg replaced with the redesigned cover:
+     green background, official seals, stethoscope watermark, animal
+     silhouettes with carabao, phone, address and both email addresses.
+   - Now 1702 x 630 (was 851 x 315), so it stays sharp on large and
+     high-resolution screens. No HTML or CSS changes were needed.
+
+2. Photo enhancement (all pages)
+   - All event and service photos in images/ were enhanced: light noise
+     reduction, gentle exposure lift for dim indoor shots, mild local
+     contrast, a small colour boost and light sharpening. Same file
+     names and sizes, so nothing in the pages had to change.
+   - Maps (negros-oriental-map.jpg, asf-zoning-map.png), the rabies
+     poster and pvo-seal.jpg only got light sharpening, so map colours,
+     legends and poster text stay accurate.
+   - Official seal PNGs and the site icons were left unchanged.
+
+3. Footer "Partner agencies" list (all 7 pages)
+   - Removed "PVO on Facebook" (it is the office's own page, not a
+     partner agency; the Facebook link elsewhere on the site is unchanged).
+   - Added Philippine Carabao Center (https://www.pcc.gov.ph/) and
+     National Dairy Authority (https://nda.da.gov.ph/).
+
+4. Masthead banner touch-up (home page)
+   - Seals in the banner rebuilt so they are no longer pixelated: the
+     Province of Negros Oriental seal's rings, lettering ("PROVINCE OF
+     NEGROS ORIENTAL", "OFFICIAL SEAL") and stars are redrawn crisply,
+     and the PVO seal now comes from the clean images/pvo-seal.jpg.
+   - The sitting dog in the animal silhouettes has a properly shaped
+     head again (rounded skull, ear, open mouth), and all silhouette
+     edges were smoothed.
+   - The carabao silhouette now uses the same dark green as the cattle
+     and other animals (with a thin gap where the cow overlaps it) and
+     was moved a little higher.
+
+5. Masthead banner replaced with the supplied final version
+   (PVO_Negor_banner_v13.png) as images/masthead-banner.jpg.
+
+6. Header logo (all 7 pages)
+   - The PVO seal beside "PROVINCIAL VETERINARY OFFICE" is now a new,
+     sharper file: images/pvo-seal-mark.png (256 x 256, transparent).
+     The scalloped blue edge, rings and lettering are redrawn crisply;
+     the centre emblem is cleaned up and sharpened.
+   - The <img class="mark"> tag on every page now points to the new file.
+     images/pvo-seal.jpg is kept unchanged.
+
+7. ASF zoning map (Disease situation page)
+   - images/asf-zoning-map.png replaced with the new map showing all four
+     zones (active cases, infected, buffer, surveillance) with its own legend.
+   - Image description (alt text) and caption updated to match the new
+     colours and zones.
+
+8. ASF map opens full size (Disease situation page)
+   - Clicking or tapping the ASF zoning map opens it full size in the
+     site's photo viewer; long maps scroll, and an "Open in new tab" link
+     is included. A small "Click the map to view it full size." hint sits
+     under the map. Close with the X, Esc, or by clicking outside.
+   - js/main.js: the existing photo viewer now also supports single
+     images (class="lb-single"); previous/next arrows are hidden for them.
+     The home page galleries work as before.
+   - css/style.css: styles for the clickable map and full-size view.
+
+9. Priority animal diseases boxes (home page)
+   - The African Swine Fever, Avian Influenza and Rabies boxes now use the
+     same mint green as the Animal Diseases cards on woah.org (#D8E7DF),
+     matched from a screenshot of that site.
+   - Text and link colours inside the boxes were darkened slightly so they
+     stay easy to read on the mint background, in both light and dark mode.
+   - css/style.css only (.disease-card); no HTML changes.
+
+10. Home page highlights backdrop
+   - The dark green backdrop of the slideshow under the banner is now the
+     light warm grey used behind the "Antimicrobial resistance" box on
+     woah.org (#F1EBE8), matched from a screenshot of that site.
+   - Headline, text, arrows, dots and outline buttons in the slideshow were
+     switched to dark green so they read clearly on the light backdrop.
+   - css/style.css only (.carousel and slide styles); no HTML changes.
+
+11. "Upcoming observance" - World Rabies Day 2026 (home page)
+   - Section redesigned after the WOAH event page "World Rabies Day 2026:
+     Stronger Together": warm grey panel, thin rule with a coral accent,
+     bold condensed headline (Oswald font), date/where details, the key
+     rabies fact, and the photo with a coral top edge.
+   - New "Discover more" link opens the full details in place (What is
+     World Rabies Day?, What can you do?, WOAH and GARC resources, a mint
+     "Rabies" card like WOAH's, social links and a button to the full WOAH
+     page). It changes to "Show less" to close again.
+   - Text is adapted from WOAH (credited at the bottom), with local advice
+     for Negros Oriental added. The section still hides itself after
+     5 October 2026, as before.
+   - Files: index.html (section + Oswald font link), css/style.css (.wr-*
+     styles), js/main.js ("Discover more" toggle).
+   - Update: all links to WOAH were removed from this section (WOAH
+     rabies resources, "Rabies on woah.org", WOAH social media links and
+     the "Read the full WOAH event page" button). The GARC links, the PVO
+     Facebook link and the plain-text WOAH credit line remain.
+   - Update: the coral line along the top of the kitten photo was removed.
+   - Update: text now uses the website's own style instead of the WOAH
+     look: Fraunces serif headings (the key rabies fact in serif italic
+     with a green side bar), Public Sans body text in the site's dark and
+     soft greens, and green bullets, arrows and link icons. The Oswald
+     font is no longer loaded on the home page.
+   - Update: paragraph and list text in this section and in the Rabies
+     tab block now use the site's usual soft green (#3F6B4A), like other
+     body text on the site; headings and bold words stay dark green.
+
+12. Browser tab icon (all pages)
+   - The white areas inside the PVO seal in the tab icon are now
+     transparent, so the tab colour shows through, like the WOAH tab icon.
+     Rebuilt from the sharp images/pvo-seal-mark.png.
+   - Files: images/icons/favicon.ico (16/32/48 px), favicon-32.png,
+     icon-192.png. No HTML changes.
+   - apple-touch-icon.png and mstile-270.png (phone home-screen and Windows
+     tile icons) keep their solid background, because iPhones fill
+     transparent areas with black.
+   - The blue scalloped border is kept, and the seal is cropped tight so
+     it fills the whole icon edge to edge (no empty margin).
+
+13. Rabies tab (Disease situation page)
+   - New "Rabies" block at the top of the Rabies tab, using the text and
+     design of the WOAH rabies disease page: "Listed disease" label, large
+     Rabies title and opening statement, What is rabies?, One of the
+     deadliest zoonoses (with the 99% / >95% / >80% / 4 in 10 facts in mint
+     boxes), Dog-mediated rabies elimination is possible, Rabies control
+     programmes (4 numbered parts) and a Frequently asked questions list
+     that opens and closes.
+   - WOAH's dog vaccination photo was replaced with the office's own photo
+     images/rabies-vaccination-dog.jpg.
+   - Local additions: the Philippines' WOAH-endorsed rabies control
+     programme, and bite advice pointing to the municipal/city veterinarian
+     and this office. No links to WOAH; a plain-text credit is included.
+   - The national 2025 rabies numbers, photos and the "exposed dog" guide
+     follow below, unchanged.
+   - Files: disease-status.html (block), css/style.css (.rz-* styles).
+   - Update: text in the rabies block now uses the website's own style:
+     Fraunces serif headings and numbers, Public Sans body text, and the
+     site's dark and soft greens (numbers, step numbers and FAQ +/- in
+     green). The Oswald font is no longer loaded on this page.
+
+14. Avian Influenza tab (Disease situation page)
+   - New "Avian Influenza" block at the top of the tab, based on the WOAH
+     avian influenza disease page and laid out like the Rabies block:
+     Listed disease label and opening statement, What is avian influenza?
+     (LPAI / HPAI boxes), Transmission and spread (3 numbered factors),
+     The impact of avian influenza (4 boxes), Public health risk,
+     Prevention and control (with biosecurity tips), A One Health approach,
+     and 8 frequently asked questions (incl. food safety and cats).
+   - WOAH's photos were replaced with the office's own
+     images/hero-poultry.jpg.
+   - Text and colours follow the website: Fraunces headings, Public Sans
+     text in the site's greens. Reporting advice points to the municipal/
+     city veterinarian and this office. No links to WOAH; a plain-text
+     credit is included.
+   - The national status update (numbers, ongoing case and sampling
+     photos) follows below, unchanged.
+   - Files: disease-status.html, css/style.css (a few extra .rz-* styles).
+
+15. African Swine Fever tab (Disease situation page)
+   - New "African swine fever" block at the top of the ASF tab, based on
+     the WOAH ASF disease page and laid out like the Rabies and Avian
+     Influenza blocks: Listed disease label and opening statement, What is
+     African swine fever?, Socio-economic impact, Global situation (83 / 12
+     / 11 country figures and a 2005-2024 spread timeline), Prevention
+     (4 numbered biosecurity points), Control measures, and 8 frequently
+     asked questions (incl. "Is pork safe to eat?").
+   - WOAH's photos were replaced with the office's own
+     images/asf-sampling-1.jpg.
+   - Text and colours follow the website. Reporting advice points to the
+     municipal/city veterinarian and this office. No links to WOAH; a
+     plain-text credit is included.
+   - The provincial bulletin, zoning map, sampling photos and national
+     figures follow below, unchanged.
+   - Files: disease-status.html, css/style.css (timeline and 3-box styles).
+
+16. Disease tabs split into "Status report" and "About" (Disease situation)
+   - Each disease tab (ASF, Avian Influenza, Rabies) now has a small
+     switch at the top: "Status report" (shown first: bulletins, maps,
+     figures, photos and local guidance) and "About ASF" / "About avian
+     influenza" / "About Rabies" (the knowledge adapted from WOAH).
+   - Links to a specific part (e.g. disease-status.html#rabies-exposed-dog)
+     still open the right tab and view.
+   - Fix: a stray closing tag in the ASF tab made the Avian Influenza and
+     Rabies tabs stretch full screen width; all three tabs now line up
+     with the rest of the page.
+   - Files: disease-status.html, css/style.css (.dz-views), js/main.js
+     (switch + deep links).
+
+17. World Rabies Day 2026 highlights (home page)
+   - New photo gallery section id="world-rabies-day-highlights", placed
+     above the Rabies Awareness Month highlights: observance of World
+     Rabies Day 2026 at the Foundation University campus, Dumaguete City.
+   - 9 photos (pet service area, dog and puppy vaccinations, registration,
+     cat deworming). Like the other galleries it shows one cover photo
+     with "View all 9 photos"; each photo opens larger when selected.
+   - Credit "Photos courtesy of Foundation University (FU)" in the intro,
+     under the gallery and in every enlarged photo caption.
+   - Photos: images/wrd-2026-*.jpg (resized to 1600 px wide).
+   - Also added to site search. CSS: .rm-credit.
+
+18. Collapsible FAQ sections (Disease situation page)
+   - The whole "Frequently asked questions" section in the About ASF,
+     About avian influenza and About Rabies views now starts closed, showing
+     only the heading, a "8 questions" label and an arrow. Clicking it opens
+     the list; each question still opens and closes on its own.
+   - Files: disease-status.html, css/style.css (.rz-faq-wrap).
+   - Update: the "Prevention" section (About ASF, label "4 key measures")
+     and the "Prevention and control" section (About avian influenza,
+     label "Biosecurity tips", with its photo) now open and close the same
+     way and start closed.
+   - Update: "Global situation" in About ASF (label "Figures & timeline")
+     now opens and closes the same way and starts closed.
+   - Update: "Transmission and spread" in About avian influenza (label
+     "3 main factors") now opens and closes the same way and starts closed.
+   - Update: "Rabies control programmes" in About Rabies (label "4 key
+     parts") now opens and closes the same way and starts closed.
+
+19. New ways of hiding content in the About views (replaces item 18)
+   The open/close sections from item 18 were replaced with four different
+   features, each used where it fits best:
+   - "Read more" fade: Global situation (ASF) and Transmission and spread
+     (avian influenza) and One of the deadliest zoonoses (Rabies) show the
+     first part with a fade and a "Read more" link ("Show less" to shrink
+     again).
+   - Topic card with pop-up window: Prevention (ASF) and Rabies control
+     programmes show as a mint card with a short summary and a "Learn more"
+     button that opens the full content in a pop-up. Close with the X, Esc
+     or by clicking outside.
+   - Topic card that opens in place: Prevention and control (avian
+     influenza) shows as a mint card with "Show details", which opens the
+     text and photo right below ("Hide details" to close).
+   - Topic tabs: each Frequently asked questions section is split into
+     topic tabs (ASF: About the disease / Safety and what to do; Avian
+     influenza: The virus / People and food / Farmers / Pets; Rabies: About
+     the disease / Bites and prevention). Answers show directly under the
+     selected tab.
+   - Files: disease-status.html, css/style.css (.rz-more, .rz-topic,
+     .rz-dialog, .rz-ftabs), js/main.js (new block at the end).
+
+20. Language switcher: English / Tagalog / Bisaya (all pages)
+   - A switcher at the top right of the dark top bar (English | Tagalog |
+     Bisaya; EN | TL | BIS on phones). The choice is remembered, so the
+     next page opens in the same language.
+   - Translated (Tagalog and Negros Oriental Cebuano): top bar, header, menu,
+     disease alerts, footer and page titles on all 7 pages; on the home page
+     the slideshow, World Rabies Day section, Priority animal diseases,
+     gallery headings and intros, news list, quick links and "Who we care
+     for"; on the Disease situation page the headings, tabs, all three
+     "About" views and the exposed-dog guide. Buttons such as Read more /
+     Show less also switch language.
+   - Stays in English: status report data and bulletins, services details
+     (Citizen's Charter), forms, organization and contact details, photo
+     captions, site search results, and official names of agencies.
+   - PLEASE have native speakers review the translations before publishing.
+     They are in js/i18n-dict.js (English text, then Tagalog, then Bisaya)
+     and can be edited there directly; any text not listed stays English.
+   - Files: js/i18n-core.js (switcher), js/i18n-dict.js (translations),
+     loaded on every page; css/style.css (.lang-switch); small updates in
+     js/main.js so changing labels are translated too.
+
+21. Home page banner reworked and slightly shorter
+   - New images/masthead-banner.jpg (1702 x 580, was 1702 x 630), about 8%
+     shorter on screen, with nothing cut off:
+     * the stethoscope watermark was resized so it now fits fully inside
+       the banner (earpieces no longer cut at the top);
+     * the animal silhouettes (incl. carabao and cattle) are larger and now
+       rise behind the contact text; the text stays on top and readable;
+     * the seals, title, tagline, contact details, swoosh, hill and colours
+       are unchanged.
+   - The earlier CSS crop of the banner was removed (not needed any more).
+   - Update: the plain dark ground strip under the animals was trimmed
+     (banner now 1702 x 558); the animals are untouched.
+   - Update: the animal silhouettes were rebuilt so no parts are missing
+     (the dog's head, the goat's head, the cat's ears and tail had been
+     clipped). They are a little less enlarged than before so each animal
+     reads clearly, and their heads still rise behind the contact text.
+   - Banner source: PVO_Negor_banner_v16.png.
+
+
+PVO Negros Oriental website - change log (23 Sep 2026)
+=====================================================
+
+1. Footer logo (all 7 pages)
+   - Seals now sit directly on the dark footer, like the BAI / GOVPH footer
+     seal above "Republic of the Philippines" (no white card or shadow).
+   - Logo rebuilt: the Province of Negros Oriental seal's white text band
+     and outer navy ring restored; the PVO seal redrawn from the clean
+     pvo-seal.jpg with a smooth scalloped edge.
+   - File: images/official-seals-footer.png
+     (original images/official-seals.png kept unchanged)
+   - CSS: .footer-id img in css/style.css
+
+2. Livestock Assessment highlights (home page)
+   - New gallery section id="livestock-assessment" in index.html, after the
+     2025 Blaides Congress highlights. 6 photos, click to view full size.
+   - The wide Mid-Year Evaluation and Assessment photo runs full width
+     under the grid (class="rm-wide", keeps its 2:1 shape).
+   - Photos: images/livestock-assessment-*.jpg
+   - CSS: .livestock-assessment shares spacing with .blaides-congress
+
+3. Forms & downloads (forms.html)
+   - 9 downloadable forms in two groups, each with a Download button:
+       ASF monitoring & certification: Form A.1, Form A.2, Form B.1,
+         Form B.2, Swine Farmers Registry
+       Laboratory sample submission: GF ADDRL-14 request form, General
+         Sample Collection Form, Sample Collection Form (Swine), Modified
+         Surveillance Form for Swine Diseases
+   - Files: documents/forms/
+   - The Form A.1 Word document was removed; Form A.1 is PDF only.
+   - Clinical Report for Rabies Examination, Functional Organizational
+     Chart and Citizen's Charter stay "Available at the office" (no download).
+
+4. New features (all pages unless noted)
+   - Site search: "Search" button in the menu bar (or press / on a
+     keyboard). Searches services, disease reports, forms, photo
+     highlights and contact details. Entries live in js/search-index.js.
+   - Disease alerts strip under the menu bar: ASF, avian influenza and
+     rabies status with dates. Edit the ALERTS list at the "Disease alerts
+     strip" section of js/main.js; every page updates.
+   - Home: World Rabies Day 2026 feature (28 September, theme "Stronger
+     Together"). It hides itself automatically after 5 October 2026
+     (data-show-until on the section in index.html).
+   - Home: Priority animal diseases cards for ASF, avian influenza and
+     rabies: animals affected, latest provincial status and useful links.
+   - Forms page: "Find a form" box that filters the list as you type.
+   - Back-to-top button on long pages.
+
+5. Polish
+   - Removed a stray closing </div> tag present on every page.
+   - Dark mode, keyboard use and printing checked for the new features.
+
+6. Photo highlights (home page): Rabies Awareness Month 2026,
+   2025 Blaides Congress and Livestock Assessment
+   - Each gallery now starts closed, showing one cover photo. Selecting
+     the cover (or its "View all photos" button) opens all the photos;
+     "Hide photos" closes the gallery again. The photo count updates
+     automatically when photos are added.
+   - Section headings now wrap neatly on small phone screens.
+   - Blaides Congress: all 18 photos now show when the gallery is opened
+     (the old "Show all 18 photos" button was removed), with a second
+     large photo so the grid fills evenly.
+   - Links to #rabies-month or #blaides-congress (such as "See activity
+     photos" on the slideshow) open that gallery directly.
+
+7. Site header (all pages)
+   - "Provincial Veterinary Office" in the header is now in capital
+     letters: PROVINCIAL VETERINARY OFFICE.
+
+8. Organization page: functional organizational chart
+   - The whole chart now starts closed behind its heading. Select
+     "Show chart" to open it and "Hide chart" to close it again.
+   - Links to organization.html#org-chart (such as from site search)
+     open the chart directly. Printing opens it in full.
+
+9. Services page rebuilt from the Citizen's Charter (2026, 3rd Edition)
+   - All 35 services in the Charter appear as tiles grouped by section:
+     Animal Health & Protection, Animal Production, Veterinary Regulation,
+     Extension, Students & data requests, Services for LGUs and
+     Administrative. Each tile shows the processing time and fee; pointing
+     to it shows who may avail.
+   - Selecting a tile opens the full procedure: office, classification,
+     type of transaction, who may avail, checklist of requirements with
+     where to secure them, each client step with the office action, fee,
+     processing time and person responsible, and the total time.
+   - "Find a service" box and filters for the public, LGUs, and PVO staff
+     & suppliers.
+   - New "Before you visit" section with the Charter's service pledge, and
+     a Feedback & complaints section from the Charter.
+   - Services menu on every page, homepage links and site search updated.
+     Every service can be found in site search and opens directly.
+
+10. Forms & downloads: Executive Order No. 46, s. 2026
+   - New "Executive orders" group at the top of Forms & downloads with
+     "EO No. 46 S.2026_Complete Ban on the Entry of Live Hogs and Their
+     Products and By-products into the province" (PDF, 4 pages).
+     File: documents/issuances/EO-No-46-s-2026-Complete-Ban-on-Entry-of-Live-Hogs-and-Products.pdf
+   - Added to site search.
+
+11. Forms & downloads: PPCC Resolution No. 1, s. 2026
+   - The "Executive orders" group is now "Executive orders & resolutions"
+     (newest first) and includes "PPCC Resolution No. 1 s.2026 Suggested
+     Retail Price of Swine" (PDF, 2 pages).
+     File: documents/issuances/PPCC-Resolution-No-1-s-2026-Suggested-Retail-Price-of-Swine.pdf
+   - Added to site search.
+
+12. Forms & downloads: Executive Order No. 10, s. 2024
+   - Added "Guidelines on the Movement of Swine and its Products and
+     By-products into the Province" (PDF, 5 pages) to "Executive orders &
+     resolutions", listed last as the oldest issuance.
+     File: documents/issuances/EO-No-10-s-2024-Guidelines-on-Movement-of-Swine-and-Products.pdf
+   - Added to site search.
+
+13. Browser tab icon
+   - The tab icon is now the PVO seal cut out on a transparent background
+     (no white square corners), in the same set of sizes that major
+     organisation websites such as WOAH provide: favicon.ico (16/32/48 px),
+     32 px and 192 px PNGs, a 180 px Apple touch icon for phone home
+     screens, a 270 px Windows tile, and a forest-green browser bar colour
+     on mobile. Files are in images/icons/.
+
+14. Services page: collapsible sections
+   - Each of the seven service sections, "Our service pledge" and "Tell us
+     how we did" now start closed and open with the + button or by
+     selecting the heading. An "Open all sections" link opens or closes all
+     seven service sections at once.
+   - Searching or using a filter opens the sections with matching services.
+     Menu links, site search results and links to a service open the right
+     section automatically. Printing the page opens everything.
