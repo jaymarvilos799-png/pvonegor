@@ -478,6 +478,13 @@ window.PVO_SEARCH = [
   "w": "form download pdf"
  },
  {
+  "t": "Laboratory Diagnosis for Rabies",
+  "d": "PADDL submission form for rabies testing · specimen, animal profile, vaccination and clinical history, victim profile and bite details",
+  "u": "documents/forms/rabies-laboratory-diagnosis-form.pdf",
+  "k": "Forms & downloads",
+  "w": "form download pdf rabies laboratory diagnosis specimen FAT bite dog"
+ },
+ {
   "t": "Laboratory Examination Request Form (GF ADDRL-14)",
   "d": "BAI Veterinary Laboratory Division request form for general sample submission · Rev. 02, 5 June 2025",
   "u": "documents/forms/gf-addrl-14-laboratory-examination-request-form-rev02.pdf",

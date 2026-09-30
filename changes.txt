@@ -612,3 +612,8 @@ PVO Negros Oriental website - change log (23 Sep 2026)
 18. Document links fixed
    - Download links for forms, issuances and the rabies poster now match the
      lowercase file names on the server, so they no longer return "not found".
+
+19. Forms & downloads: Laboratory Diagnosis for Rabies
+   - Added the PADDL rabies laboratory diagnosis form (1 page, 8.5 x 13 in)
+     as the first item under "Laboratory sample submission", with a search entry.
+     File: documents/forms/rabies-laboratory-diagnosis-form.pdf
