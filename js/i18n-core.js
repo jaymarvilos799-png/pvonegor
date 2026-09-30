@@ -48,7 +48,7 @@
 
   var units = null, current = 'en';
   var dict = window.PVO_I18N_DICT || {};
-  var ATTRS = ['aria-label', 'title', 'placeholder'];
+  var ATTRS = ['aria-label', 'title', 'placeholder', 'data-tip'];
   function tr(key, lang) { var e = dict[key]; return e && lang !== 'en' ? e[IDX[lang]] : null; }
   window.PVO_T = function (english) { var t = tr(norm(english), current); return t || english; };
 
@@ -66,7 +66,7 @@
         u.node.nodeValue = m[1] + t + m[2];
       }
     });
-    document.querySelectorAll('[aria-label],[title],[placeholder]').forEach(function (el) {
+    document.querySelectorAll('[aria-label],[title],[placeholder],[data-tip]').forEach(function (el) {
       ATTRS.forEach(function (a) {
         if (!el.hasAttribute(a)) return;
         var k = 'data-i18n-orig-' + a;

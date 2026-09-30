@@ -623,3 +623,6 @@ PVO Negros Oriental website - change log (23 Sep 2026)
      figures, samples by month (stacked bars), positive cases by LGU, a data table,
      the situation narrative and recommended actions. National 2025 figures follow
      under "National rabies picture, 2025". Added a site-search entry.
+
+21. Rabies situation report: barangay names removed from the narrative; the whole
+    section now switches to Tagalog and Bisaya (chart hover labels included).
