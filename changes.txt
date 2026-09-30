@@ -617,3 +617,9 @@ PVO Negros Oriental website - change log (23 Sep 2026)
    - Added the PADDL rabies laboratory diagnosis form (1 page, 8.5 x 13 in)
      as the first item under "Laboratory sample submission", with a search entry.
      File: documents/forms/rabies-laboratory-diagnosis-form.pdf
+
+20. Rabies tab: provincial rabies situation report (Jan-Aug 2026)
+   - Added to the top of Disease situation > Rabies > Status report: four summary
+     figures, samples by month (stacked bars), positive cases by LGU, a data table,
+     the situation narrative and recommended actions. National 2025 figures follow
+     under "National rabies picture, 2025". Added a site-search entry.

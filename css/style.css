@@ -1326,3 +1326,61 @@ section.sec-foldable { padding: 48px 0; }
   .cc-group-head { grid-template-columns: 1fr auto; }
   .cc-group-head .fold-toggle { grid-column: 2; grid-row: 1 / span 3; }
 }
+
+/* ===== Rabies situation report (provincial lab, Rabies tab) ===== */
+.rsit { --rs-pos: #A6402B; --rs-neg: #6FA85F; --rs-pos-ink: #fff; --rs-neg-ink: #14331F; --rs-unf: #8F978C;
+  margin: 0 0 56px; padding: 0 0 48px; border-bottom: 1px solid var(--line); }
+:root:not([data-theme="light"]) { @media (prefers-color-scheme: dark) { .rsit { --rs-pos: #E08064; --rs-neg: #3F7A32; --rs-pos-ink: #1A0E0A; --rs-neg-ink: #fff; --rs-unf: #7A8279; } } }
+:root[data-theme="dark"] .rsit { --rs-pos: #E08064; --rs-neg: #3F7A32; --rs-pos-ink: #1A0E0A; --rs-neg-ink: #fff; --rs-unf: #7A8279; }
+.rsit h3#rsit-title { font-size: clamp(1.35rem, 2.2vw, 1.7rem); margin: 6px 0 6px; }
+.rsit-sub { color: var(--ink-soft); font-size: .92rem; margin: 0 0 26px; max-width: 70ch; }
+.rsit-tiles { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 16px; }
+.rsit-tile { background: var(--paper-raised); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; }
+.rsit-tile .n { font-family: 'Fraunces', serif; font-size: 2.2rem; line-height: 1; color: var(--ink); font-weight: 600; }
+.rsit-tile .l { font-size: .88rem; color: var(--ink-soft); margin-top: 10px; }
+.rsit-tile.t-pos { background: var(--coral-100); border-color: transparent; } .rsit-tile.t-pos .n { color: var(--coral-600); }
+.rsit-tile.t-neg { background: var(--leaf-100); border-color: transparent; } .rsit-tile.t-neg .n { color: var(--leaf-600); }
+.rsit-charts { display: grid; grid-template-columns: minmax(0,1.15fr) minmax(0,1fr); gap: 40px; margin-top: 36px; }
+.rsit-chart { margin: 0; }
+.rsit-ct { font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 600; color: var(--ink); margin-bottom: 10px; }
+.rs-legend { display: flex; gap: 16px; font-size: .82rem; color: var(--ink-soft); margin-bottom: 12px; }
+.rs-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.rs-legend i { width: 11px; height: 11px; border-radius: 3px; display: inline-block; }
+.rs-pos { background: var(--rs-pos); } .rs-neg { background: var(--rs-neg); }
+.rs-unf { background: repeating-linear-gradient(45deg, var(--rs-unf) 0 3px, transparent 3px 6px); box-shadow: inset 0 0 0 1px var(--rs-unf); }
+.rs-plot { display: grid; grid-template-columns: 22px 1fr; gap: 8px; height: 250px; padding-bottom: 24px; }
+.rs-y { display: flex; flex-direction: column; justify-content: space-between; font-size: .75rem; color: var(--ink-soft); text-align: right; transform: translateY(-.5em); height: calc(100% + 1em); }
+.rs-area { position: relative; display: grid; grid-template-columns: repeat(8, 1fr); gap: 10px; border-bottom: 1px solid var(--ink-soft);
+  background: repeating-linear-gradient(to top, transparent 0 calc(25% - 1px), var(--line) calc(25% - 1px) 25%); }
+.rs-col { position: relative; height: 100%; }
+.rs-stack { position: absolute; inset: 0; display: flex; flex-direction: column-reverse; gap: 2px; }
+.rs-seg { position: relative; display: flex; align-items: center; justify-content: center; font-size: .78rem; min-height: 0; outline: none; }
+.rs-seg:last-child { border-radius: 4px 4px 0 0; }
+.rs-seg b { font-weight: 600; }
+.rs-seg.rs-pos { color: var(--rs-pos-ink); } .rs-seg.rs-neg { color: var(--rs-neg-ink); }
+.rs-seg.rs-unf { color: var(--ink); } .rs-seg.rs-unf b { background: var(--paper); padding: 0 4px; border-radius: 3px; }
+.rs-none { position: absolute; bottom: 4px; left: 0; right: 0; text-align: center; font-size: .68rem; color: var(--ink-soft); line-height: 1.1; }
+.rs-x { position: absolute; top: 100%; left: 0; right: 0; text-align: center; font-size: .8rem; color: var(--ink-soft); padding-top: 6px; }
+.rs-hbars { display: grid; gap: 12px; margin-top: 6px; }
+.rs-hrow { display: grid; grid-template-columns: 118px 1fr; align-items: center; gap: 12px; font-size: .88rem; }
+.rs-hlab { text-align: right; color: var(--ink); }
+.rs-htrack { display: flex; align-items: center; gap: 8px; }
+.rs-hbar { position: relative; display: block; height: 16px; background: var(--rs-pos); border-radius: 0 4px 4px 0; outline: none; max-width: calc(100% - 20px); }
+.rs-htrack b { font-weight: 600; font-size: .85rem; color: var(--ink); }
+.rs-seg[data-tip]:hover::after, .rs-seg[data-tip]:focus-visible::after, .rs-hbar[data-tip]:hover::after, .rs-hbar[data-tip]:focus-visible::after {
+  content: attr(data-tip); position: absolute; bottom: calc(100% + 6px); left: 50%; transform: translateX(-50%); white-space: nowrap;
+  background: var(--ink); color: var(--paper); font-size: .75rem; font-weight: 500; padding: 4px 8px; border-radius: 5px; z-index: 5; pointer-events: none; }
+.rs-seg:hover, .rs-seg:focus-visible, .rs-hbar:hover, .rs-hbar:focus-visible { filter: brightness(1.08); box-shadow: 0 0 0 2px var(--paper), 0 0 0 3px var(--ink-soft); z-index: 4; }
+.rsit-note { font-size: .88rem; font-style: italic; color: var(--ink-soft); margin: 18px 0 0; }
+.rsit-table { margin-top: 18px; font-size: .9rem; }
+.rsit-table summary { cursor: pointer; color: var(--leaf-600); font-weight: 600; font-size: .88rem; }
+.rsit-table table { margin-top: 12px; }
+.rsit-narr { display: grid; grid-template-columns: minmax(0,1.5fr) minmax(0,1fr); gap: 36px; margin-top: 36px; align-items: start; }
+.rsit-narr h4 { font-family: 'Fraunces', serif; font-size: 1.15rem; margin: 0 0 12px; color: var(--ink); }
+.rsit-text p { margin: 0 0 14px; max-width: 70ch; }
+.rsit-actions { background: var(--coral-100); border-radius: 10px; padding: 22px 24px; }
+.rsit-actions h4 { color: var(--coral-600); }
+.rsit-actions ul { margin: 0; padding-left: 1.1em; display: grid; gap: 10px; font-size: .94rem; }
+.rsit-national { font-size: 1.25rem; margin: 0 0 14px; }
+@media (max-width: 900px) { .rsit-tiles { grid-template-columns: repeat(2, minmax(0,1fr)); } .rsit-charts, .rsit-narr { grid-template-columns: 1fr; } }
+@media (max-width: 480px) { .rsit-tiles { gap: 10px; } .rsit-tile { padding: 14px; } .rsit-tile .n { font-size: 1.8rem; } .rs-area { gap: 5px; } .rs-hrow { grid-template-columns: 100px 1fr; } .rs-none { font-size: .6rem; } }

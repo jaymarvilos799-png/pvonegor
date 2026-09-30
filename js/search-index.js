@@ -324,6 +324,13 @@ window.PVO_SEARCH = [
   "w": "bird flu ai h5n1 poultry chicken duck"
  },
  {
+  "t": "Rabies situation in Negros Oriental, January–August 2026",
+  "d": "Provincial rabies laboratory report: 15 samples, 8 positive, 57% positivity; positive cases by month and LGU, and recommended actions",
+  "u": "disease-status.html#rabies",
+  "k": "Disease situation",
+  "w": "rabies situation report positive samples laboratory PADDL Dumaguete Bais Bayawan La Libertad Tayasan Zamboanguita stray dog 2026"
+ },
+ {
   "t": "Rabies situation",
   "d": "National 2025 rabies summary: 1,377 positive cases out of 4,784 samples tested",
   "u": "disease-status.html#rabies",
