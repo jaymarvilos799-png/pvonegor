@@ -235,7 +235,7 @@ function PVO_tr(s, n) { var t = window.PVO_T ? window.PVO_T(s) : s; return n ===
    Edit the three alerts below; every page updates. level: active | clear | watch */
 (function () {
   var ALERTS = [
-    { level: 'active', name: 'ASF', text: 'Active in 36 barangays, 8 LGUs', date: '4 Sep 2026', href: 'disease-status.html#asf' },
+    { level: 'active', name: 'ASF', text: 'Active in 36 barangays, 8 LGUs', date: '24 Sep 2026', href: 'disease-status.html#asf' },
     { level: 'clear',  name: 'Avian influenza', text: 'No reported cases', date: '11 Sep 2026', href: 'disease-status.html#avian' },
     { level: 'watch',  name: 'Rabies', text: 'Vaccinate dogs and cats yearly', date: '', href: 'disease-status.html#rabies-exposed-dog' }
   ];

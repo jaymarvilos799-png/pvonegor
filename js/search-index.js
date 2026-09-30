@@ -311,7 +311,7 @@ window.PVO_SEARCH = [
  },
  {
   "t": "African Swine Fever (ASF) situation",
-  "d": "ASF bulletin #2026-16, as of 4 September 2026: 36 ASF-positive barangays in 8 cities and municipalities, with the provincial zoning map",
+  "d": "ASF bulletin #2026-17, as of 24 September 2026: 36 ASF-positive barangays in 8 cities and municipalities, with the provincial zoning map",
   "u": "disease-status.html#asf",
   "k": "Disease situation",
   "w": "asf swine pig hog zoning bulletin red pink yellow zone"
@@ -340,7 +340,7 @@ window.PVO_SEARCH = [
  {
   "t": "Rabies exposed-dog poster (PDF)",
   "d": "Department of Agriculture poster in Filipino on what to do if your dog is exposed to rabies",
-  "u": "documents/DA-Rabies-Exposed-Dog-Poster-Filipino.pdf",
+  "u": "documents/da-rabies-exposed-dog-poster-filipino.pdf",
   "k": "Resources",
   "w": "poster filipino download pdf rabies"
  },
@@ -424,84 +424,84 @@ window.PVO_SEARCH = [
  {
   "t": "PPCC Resolution No. 1 s.2026 Suggested Retail Price of Swine",
   "d": "Provincial Price Coordinating Council Resolution No. 1, s. 2026: suggested prices for pork (₱240–₱290/kg), piglets (₱2,500–₱5,000/head) and live hogs (₱150–₱180/kg live weight)",
-  "u": "documents/issuances/PPCC-Resolution-No-1-s-2026-Suggested-Retail-Price-of-Swine.pdf",
+  "u": "documents/issuances/ppcc-resolution-no-1-s-2026-suggested-retail-price-of-swine.pdf",
   "k": "Forms & downloads",
   "w": "ppcc resolution price pork piglets live hogs srp suggested retail asf lechon 2026"
  },
  {
   "t": "EO No. 46 S.2026_Complete Ban on the Entry of Live Hogs and Their Products and By-products into the province",
   "d": "Executive Order No. 46, s. 2026: complete ban on the entry of live pigs, pork, pork products and by-products, frozen boar semen and hog transport vehicles from ASF-affected areas",
-  "u": "documents/issuances/EO-No-46-s-2026-Complete-Ban-on-Entry-of-Live-Hogs-and-Products.pdf",
+  "u": "documents/issuances/eo-no-46-s-2026-complete-ban-on-entry-of-live-hogs-and-products.pdf",
   "k": "Forms & downloads",
   "w": "eo 46 executive order asf ban pork hogs pigs boar semen task force governor 2026"
  },
  {
   "t": "Guidelines on the Movement of Swine and its Products and By-products into the Province",
   "d": "Executive Order No. 10, s. 2024: ASF zones, documents required to bring pigs and pork products into Negros Oriental, and downtime rules for livestock transport vehicles",
-  "u": "documents/issuances/EO-No-10-s-2024-Guidelines-on-Movement-of-Swine-and-Products.pdf",
+  "u": "documents/issuances/eo-no-10-s-2024-guidelines-on-movement-of-swine-and-products.pdf",
   "k": "Forms & downloads",
   "w": "eo 10 executive order 2024 movement transport swine pigs pork shipping permit downtime quarantine bantay sakit"
  },
  {
   "t": "Form A.1 · Monthly Negative Disease Monitoring Report",
   "d": "Certifies that a swine farm had no ASF cases or suspicious signs in the past 30 days, under DA Administrative Circular No. 2, s. 2022",
-  "u": "documents/forms/Form-A1-Monthly-Negative-Disease-Monitoring-Report.pdf",
+  "u": "documents/forms/form-a1-monthly-negative-disease-monitoring-report.pdf",
   "k": "Forms & downloads",
   "w": "form download pdf"
  },
  {
   "t": "Form A.2 · LGU Endorsement for Sample Collection and ASF Testing",
   "d": "LGU certification that its representative witnessed the collection of blood or serum samples for ASF testing",
-  "u": "documents/forms/Form-A2-LGU-Endorsement-for-Sample-Collection-and-ASF-Testing.pdf",
+  "u": "documents/forms/form-a2-lgu-endorsement-for-sample-collection-and-asf-testing.pdf",
   "k": "Forms & downloads",
   "w": "form download pdf"
  },
  {
   "t": "Form B.1 · Monthly Negative Disease Monitoring Report (RAS-ASF)",
   "d": "Covers all smallhold and semi-commercial swine farms in a city or municipality",
-  "u": "documents/forms/Form-B1-Monthly-Negative-Disease-Monitoring-Report-RAS-ASF.pdf",
+  "u": "documents/forms/form-b1-monthly-negative-disease-monitoring-report-ras-asf.pdf",
   "k": "Forms & downloads",
   "w": "form download pdf"
  },
  {
   "t": "Form B.2 · Endorsement for the Application for Recognition of Active Surveillance",
   "d": "Letter endorsing a city or municipality to the BAI Director for Recognition of Active Surveillance on ASF, with the list of barangays sampled",
-  "u": "documents/forms/Form-B2-Endorsement-for-Recognition-of-Active-Surveillance.pdf",
+  "u": "documents/forms/form-b2-endorsement-for-recognition-of-active-surveillance.pdf",
   "k": "Forms & downloads",
   "w": "form download pdf"
  },
  {
   "t": "Swine Farmers Registry",
   "d": "City or municipal list of swine farmers with barangay, GPS location, farm type, population, RSBSA registration and biosecurity level",
-  "u": "documents/forms/Swine-Farmers-Registry.pdf",
+  "u": "documents/forms/swine-farmers-registry.pdf",
   "k": "Forms & downloads",
   "w": "form download pdf"
  },
  {
   "t": "Laboratory Examination Request Form (GF ADDRL-14)",
   "d": "BAI Veterinary Laboratory Division request form for general sample submission · Rev. 02, 5 June 2025",
-  "u": "documents/forms/GF-ADDRL-14-Laboratory-Examination-Request-Form-Rev02.pdf",
+  "u": "documents/forms/gf-addrl-14-laboratory-examination-request-form-rev02.pdf",
   "k": "Forms & downloads",
   "w": "form download pdf"
  },
  {
   "t": "General Sample Collection Form",
   "d": "BAI form listing serum, blood, swab and feces samples · use a new form for each barangay",
-  "u": "documents/forms/General-Sample-Collection-Form.pdf",
+  "u": "documents/forms/general-sample-collection-form.pdf",
   "k": "Forms & downloads",
   "w": "form download pdf"
  },
  {
   "t": "Sample Collection Form (Swine)",
   "d": "BAI form for swine whole blood and serum samples, with stage of production and purpose of testing",
-  "u": "documents/forms/Sample-Collection-Form-Swine.pdf",
+  "u": "documents/forms/sample-collection-form-swine.pdf",
   "k": "Forms & downloads",
   "w": "form download pdf"
  },
  {
   "t": "Modified Surveillance Form for Swine Diseases",
   "d": "Farm details, population and clinical observations for swine disease surveillance",
-  "u": "documents/forms/Modified-Surveillance-Form-Swine-Diseases.pdf",
+  "u": "documents/forms/modified-surveillance-form-swine-diseases.pdf",
   "k": "Forms & downloads",
   "w": "form download pdf"
  },

@@ -157,9 +157,9 @@ window.PVO_I18N_DICT = {
   "Mga babala sa sakit",
   "Mga pahibalo sa sakit"
  ],
- "<span class=\"dot\" aria-hidden=\"true\"></span><strong>ASF</strong><span class=\"as-text\">Active in 36 barangays, 8 LGUs</span><time>4 Sep 2026</time>": [
-  "<span class=\"dot\" aria-hidden=\"true\"></span><strong>ASF</strong><span class=\"as-text\">Aktibo sa 36 barangay, 8 LGU</span><time>4 Set 2026</time>",
-  "<span class=\"dot\" aria-hidden=\"true\"></span><strong>ASF</strong><span class=\"as-text\">Aktibo sa 36 ka barangay, 8 ka LGU</span><time>4 Sep 2026</time>"
+ "<span class=\"dot\" aria-hidden=\"true\"></span><strong>ASF</strong><span class=\"as-text\">Active in 36 barangays, 8 LGUs</span><time>24 Sep 2026</time>": [
+  "<span class=\"dot\" aria-hidden=\"true\"></span><strong>ASF</strong><span class=\"as-text\">Aktibo sa 36 barangay, 8 LGU</span><time>24 Set 2026</time>",
+  "<span class=\"dot\" aria-hidden=\"true\"></span><strong>ASF</strong><span class=\"as-text\">Aktibo sa 36 ka barangay, 8 ka LGU</span><time>24 Sep 2026</time>"
  ],
  "<span class=\"dot\" aria-hidden=\"true\"></span><strong>Avian influenza</strong><span class=\"as-text\">No reported cases</span><time>11 Sep 2026</time>": [
   "<span class=\"dot\" aria-hidden=\"true\"></span><strong>Avian influenza</strong><span class=\"as-text\">Walang naiulat na kaso</span><time>11 Set 2026</time>",
@@ -193,9 +193,9 @@ window.PVO_I18N_DICT = {
   "May aktibong kaso ng ASF sa 36 barangay sa 8 lungsod at bayan",
   "Adunay aktibong kaso sa ASF sa 36 ka barangay sa 8 ka siyudad ug lungsod"
  ],
- "From the national ASF bulletin #2026-16, as of 4 September 2026. See the provincial zoning map and the national picture.": [
-  "Mula sa pambansang ASF bulletin #2026-16, hanggang 4 Setyembre 2026. Tingnan ang zoning map ng lalawigan at ang pambansang sitwasyon.",
-  "Gikan sa nasyonal nga ASF bulletin #2026-16, hangtod 4 Septyembre 2026. Tan-awa ang zoning map sa probinsya ug ang kahimtang sa tibuok nasud."
+ "From the national ASF bulletin #2026-17, as of 24 September 2026. See the provincial zoning map and the national picture.": [
+  "Mula sa pambansang ASF bulletin #2026-17, hanggang 24 Setyembre 2026. Tingnan ang zoning map ng lalawigan at ang pambansang sitwasyon.",
+  "Gikan sa nasyonal nga ASF bulletin #2026-17, hangtod 24 Septyembre 2026. Tan-awa ang zoning map sa probinsya ug ang kahimtang sa tibuok nasud."
  ],
  "See the ASF report": [
   "Tingnan ang ulat sa ASF",
@@ -393,9 +393,9 @@ window.PVO_I18N_DICT = {
   "Pinakabagong kalagayan",
   "Pinakabag-ong kahimtang"
  ],
- "36 barangays in 8 cities and municipalities, as of 4 September 2026 <span class=\"nw\">(bulletin #2026-16)</span>": [
-  "36 barangay sa 8 lungsod at bayan, hanggang 4 Setyembre 2026 <span class=\"nw\">(bulletin #2026-16)</span>",
-  "36 ka barangay sa 8 ka siyudad ug lungsod, hangtod 4 Septyembre 2026 <span class=\"nw\">(bulletin #2026-16)</span>"
+ "36 barangays in 8 cities and municipalities, as of 24 September 2026 <span class=\"nw\">(bulletin #2026-17)</span>": [
+  "36 barangay sa 8 lungsod at bayan, hanggang 24 Setyembre 2026 <span class=\"nw\">(bulletin #2026-17)</span>",
+  "36 ka barangay sa 8 ka siyudad ug lungsod, hangtod 24 Septyembre 2026 <span class=\"nw\">(bulletin #2026-17)</span>"
  ],
  "Provincial ASF report and zoning map": [
   "Ulat ng lalawigan sa ASF at zoning map",
@@ -517,9 +517,9 @@ window.PVO_I18N_DICT = {
   "<span class=\"news-meta\"><time>11 Set 2026</time><span class=\"news-tag\">Avian influenza</span></span><span class=\"news-title\">Update sa avian influenza: walang naiulat na kaso sa Negros Oriental</span>",
   "<span class=\"news-meta\"><time>11 Sep 2026</time><span class=\"news-tag\">Avian influenza</span></span><span class=\"news-title\">Update sa avian influenza: walay na-report nga kaso sa Negros Oriental</span>"
  ],
- "<span class=\"news-meta\"><time>4 Sep 2026</time><span class=\"news-tag\">African Swine Fever</span></span><span class=\"news-title\">ASF bulletin #2026-16: 36 ASF-positive barangays across 8 LGUs in the province</span>": [
-  "<span class=\"news-meta\"><time>4 Set 2026</time><span class=\"news-tag\">African Swine Fever</span></span><span class=\"news-title\">ASF bulletin #2026-16: 36 barangay na positibo sa ASF sa 8 LGU ng lalawigan</span>",
-  "<span class=\"news-meta\"><time>4 Sep 2026</time><span class=\"news-tag\">African Swine Fever</span></span><span class=\"news-title\">ASF bulletin #2026-16: 36 ka barangay nga positibo sa ASF sa 8 ka LGU sa probinsya</span>"
+ "<span class=\"news-meta\"><time>24 Sep 2026</time><span class=\"news-tag\">African Swine Fever</span></span><span class=\"news-title\">ASF bulletin #2026-17: 36 ASF-positive barangays across 8 LGUs in the province</span>": [
+  "<span class=\"news-meta\"><time>24 Set 2026</time><span class=\"news-tag\">African Swine Fever</span></span><span class=\"news-title\">ASF bulletin #2026-17: 36 barangay na positibo sa ASF sa 8 LGU ng lalawigan</span>",
+  "<span class=\"news-meta\"><time>24 Sep 2026</time><span class=\"news-tag\">African Swine Fever</span></span><span class=\"news-title\">ASF bulletin #2026-17: 36 ka barangay nga positibo sa ASF sa 8 ka LGU sa probinsya</span>"
  ],
  "<span class=\"news-meta\"><time>Mar 2026</time><span class=\"news-tag\">Event</span></span><span class=\"news-title\">Rabies Awareness Month 2026: free anti-rabies vaccination, deworming and pet consultations held across partner municipalities</span>": [
   "<span class=\"news-meta\"><time>Mar 2026</time><span class=\"news-tag\">Kaganapan</span></span><span class=\"news-title\">Rabies Awareness Month 2026: libreng bakuna kontra rabies, pagpupurga at konsultasyon sa mga katuwang na bayan</span>",
@@ -1377,9 +1377,9 @@ window.PVO_I18N_DICT = {
   "Hinango mula sa poster ng Department of Agriculture–National Rabies Prevention and Control Program (JAPOHR project kasama ang Oita University at JICA). Mga sanggunian: OIE Terrestrial Animal Health Code; RA 9482, Anti-Rabies Act, at IRR nito; gabay ng U.S. CDC tungkol sa posibleng exposure sa rabies.",
   "Gikuha gikan sa poster sa Department of Agriculture–National Rabies Prevention and Control Program (JAPOHR project uban ang Oita University ug JICA). Mga reperensya: OIE Terrestrial Animal Health Code; RA 9482, Anti-Rabies Act, ug ang IRR niini; giya sa U.S. CDC bahin sa posibleng exposure sa rabies."
  ],
- "Original poster in Filipino. <a href=\"documents/DA-Rabies-Exposed-Dog-Poster-Filipino.pdf\" download=\"DA-Rabies-Exposed-Dog-Poster-Filipino.pdf\">Download PDF</a>": [
-  "Orihinal na poster sa Filipino. <a href=\"documents/DA-Rabies-Exposed-Dog-Poster-Filipino.pdf\" download=\"DA-Rabies-Exposed-Dog-Poster-Filipino.pdf\">I-download ang PDF</a>",
-  "Orihinal nga poster sa Filipino. <a href=\"documents/DA-Rabies-Exposed-Dog-Poster-Filipino.pdf\" download=\"DA-Rabies-Exposed-Dog-Poster-Filipino.pdf\">I-download ang PDF</a>"
+ "Original poster in Filipino. <a href=\"documents/da-rabies-exposed-dog-poster-filipino.pdf\" download=\"DA-Rabies-Exposed-Dog-Poster-Filipino.pdf\">Download PDF</a>": [
+  "Orihinal na poster sa Filipino. <a href=\"documents/da-rabies-exposed-dog-poster-filipino.pdf\" download=\"DA-Rabies-Exposed-Dog-Poster-Filipino.pdf\">I-download ang PDF</a>",
+  "Orihinal nga poster sa Filipino. <a href=\"documents/da-rabies-exposed-dog-poster-filipino.pdf\" download=\"DA-Rabies-Exposed-Dog-Poster-Filipino.pdf\">I-download ang PDF</a>"
  ],
  "<a href=\"index.html\">Home</a><span aria-hidden=\"true\">/</span><span>Forms</span>": [
   "<a href=\"index.html\">Home</a><span aria-hidden=\"true\">/</span><span>Mga form</span>",

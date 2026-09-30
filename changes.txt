@@ -408,3 +408,207 @@ PVO Negros Oriental website - change log (23 Sep 2026)
    - Searching or using a filter opens the sections with matching services.
      Menu links, site search results and links to a service open the right
      section automatically. Printing the page opens everything.
+
+
+15. Language switcher: English / Tagalog / Bisaya (all pages)
+   - A switcher at the top right of the dark top bar (English | Tagalog |
+     Bisaya; EN | TL | BIS on phones). The choice is remembered, so the
+     next page opens in the same language.
+   - Translated (Tagalog and Negros Oriental Cebuano): top bar, header, menu,
+     disease alerts, footer and page titles on all 7 pages; on the home page
+     the slideshow, World Rabies Day section, Priority animal diseases,
+     gallery headings and intros, news list, quick links and "Who we care
+     for"; on the Disease situation page the headings, tabs, all three
+     "About" views and the exposed-dog guide. Buttons such as Read more /
+     Show less also switch language.
+   - Stays in English: status report data and bulletins, services details
+     (Citizen's Charter), forms, organization and contact details, photo
+     captions, site search results, and official names of agencies.
+   - PLEASE have native speakers review the translations before publishing.
+     They are in js/i18n-dict.js (English text, then Tagalog, then Bisaya)
+     and can be edited there directly; any text not listed stays English.
+   - Files: js/i18n-core.js (switcher), js/i18n-dict.js (translations),
+     loaded on every page; css/style.css (.lang-switch); small updates in
+     js/main.js so changing labels are translated too.
+
+16. Home page banner reworked and slightly shorter
+   - New images/masthead-banner.jpg (1702 x 580, was 1702 x 630), about 8%
+     shorter on screen, with nothing cut off:
+     * the stethoscope watermark was resized so it now fits fully inside
+       the banner (earpieces no longer cut at the top);
+     * the animal silhouettes (incl. carabao and cattle) are larger and now
+       rise behind the contact text; the text stays on top and readable;
+     * the seals, title, tagline, contact details, swoosh, hill and colours
+       are unchanged.
+   - The earlier CSS crop of the banner was removed (not needed any more).
+   - Update: the plain dark ground strip under the animals was trimmed
+     (banner now 1702 x 558); the animals are untouched.
+   - Update: the animal silhouettes were rebuilt so no parts are missing
+     (the dog's head, the goat's head, the cat's ears and tail had been
+     clipped). They are a little less enlarged than before so each animal
+     reads clearly, and their heads still rise behind the contact text.
+   - Banner source: PVO_Negor_banner_v16.png.
+
+17. ASF status update: new maps and national bulletin #2026-17 (Disease situation page, ASF tab)
+   - Two provincial maps now sit side by side, each opening full size:
+     * "LGUs with active cases of ASF" (images/asf-active-lgus-map.png):
+       Bayawan City, San Jose and Zamboanguita shaded red;
+     * "ASF Zoning Status in Negros Oriental" (images/asf-zoning-map.png,
+       replaces the old map): infected, buffer and surveillance zones as of
+       24 September 2026.
+   - The national bulletin NASFPCP #2026-17 (as of 24 September 2026) is
+     shown next to them (images/asf-bulletin-2026-17.jpg) with a download
+     link to the PDF (documents/bulletins/nasfpcp-asf-bulletin-2026-17.pdf).
+   - All figures updated from bulletin #2026-17: nationwide active cases
+     13 regions / 31 provinces / 107 cities & municipalities / 293
+     barangays; cumulative since 2019 18 / 76 / 1,095 / 6,783; zone
+     recovery (Luzon 27/63/9%, Visayas 50/44/5%, Mindanao 45/35/20%;
+     Red-to-Pink 393/114/76; Pink-to-Yellow 77/18/54).
+   - Negros Oriental in the bulletin is unchanged: 36 barangays in 8 LGUs.
+     The note that it was the highest provincial count was corrected:
+     it is now second, after Isabela (117).
+   - Bulletin number and date updated everywhere (home page slideshow,
+     Priority animal diseases card, news list, disease alerts strip, site
+     search and translations): #2026-17, 24 September 2026.
+   - The sampling photos now sit below the maps.
+   - Update: the "LGUs with active cases of ASF" map is dated 30 September
+     2026 in its caption, with a note that it is more recent than the
+     national bulletin (24 September 2026, 8 LGUs). The note at the top of
+     the ASF status report adds: "Latest provincial update (30 September
+     2026): active ASF cases are now in 3 LGUs - Bayawan City, San Jose and
+     Zamboanguita."
+
+
+PVO Negros Oriental website - change log (23 Sep 2026)
+=====================================================
+
+1. Footer logo (all 7 pages)
+   - Seals now sit directly on the dark footer, like the BAI / GOVPH footer
+     seal above "Republic of the Philippines" (no white card or shadow).
+   - Logo rebuilt: the Province of Negros Oriental seal's white text band
+     and outer navy ring restored; the PVO seal redrawn from the clean
+     pvo-seal.jpg with a smooth scalloped edge.
+   - File: images/official-seals-footer.png
+     (original images/official-seals.png kept unchanged)
+   - CSS: .footer-id img in css/style.css
+
+2. Livestock Assessment highlights (home page)
+   - New gallery section id="livestock-assessment" in index.html, after the
+     2025 Blaides Congress highlights. 6 photos, click to view full size.
+   - The wide Mid-Year Evaluation and Assessment photo runs full width
+     under the grid (class="rm-wide", keeps its 2:1 shape).
+   - Photos: images/livestock-assessment-*.jpg
+   - CSS: .livestock-assessment shares spacing with .blaides-congress
+
+3. Forms & downloads (forms.html)
+   - 9 downloadable forms in two groups, each with a Download button:
+       ASF monitoring & certification: Form A.1, Form A.2, Form B.1,
+         Form B.2, Swine Farmers Registry
+       Laboratory sample submission: GF ADDRL-14 request form, General
+         Sample Collection Form, Sample Collection Form (Swine), Modified
+         Surveillance Form for Swine Diseases
+   - Files: documents/forms/
+   - The Form A.1 Word document was removed; Form A.1 is PDF only.
+   - Clinical Report for Rabies Examination, Functional Organizational
+     Chart and Citizen's Charter stay "Available at the office" (no download).
+
+4. New features (all pages unless noted)
+   - Site search: "Search" button in the menu bar (or press / on a
+     keyboard). Searches services, disease reports, forms, photo
+     highlights and contact details. Entries live in js/search-index.js.
+   - Disease alerts strip under the menu bar: ASF, avian influenza and
+     rabies status with dates. Edit the ALERTS list at the "Disease alerts
+     strip" section of js/main.js; every page updates.
+   - Home: World Rabies Day 2026 feature (28 September, theme "Stronger
+     Together"). It hides itself automatically after 5 October 2026
+     (data-show-until on the section in index.html).
+   - Home: Priority animal diseases cards for ASF, avian influenza and
+     rabies: animals affected, latest provincial status and useful links.
+   - Forms page: "Find a form" box that filters the list as you type.
+   - Back-to-top button on long pages.
+
+5. Polish
+   - Removed a stray closing </div> tag present on every page.
+   - Dark mode, keyboard use and printing checked for the new features.
+
+6. Photo highlights (home page): Rabies Awareness Month 2026,
+   2025 Blaides Congress and Livestock Assessment
+   - Each gallery now starts closed, showing one cover photo. Selecting
+     the cover (or its "View all photos" button) opens all the photos;
+     "Hide photos" closes the gallery again. The photo count updates
+     automatically when photos are added.
+   - Section headings now wrap neatly on small phone screens.
+   - Blaides Congress: all 18 photos now show when the gallery is opened
+     (the old "Show all 18 photos" button was removed), with a second
+     large photo so the grid fills evenly.
+   - Links to #rabies-month or #blaides-congress (such as "See activity
+     photos" on the slideshow) open that gallery directly.
+
+7. Site header (all pages)
+   - "Provincial Veterinary Office" in the header is now in capital
+     letters: PROVINCIAL VETERINARY OFFICE.
+
+8. Organization page: functional organizational chart
+   - The whole chart now starts closed behind its heading. Select
+     "Show chart" to open it and "Hide chart" to close it again.
+   - Links to organization.html#org-chart (such as from site search)
+     open the chart directly. Printing opens it in full.
+
+9. Services page rebuilt from the Citizen's Charter (2026, 3rd Edition)
+   - All 35 services in the Charter appear as tiles grouped by section:
+     Animal Health & Protection, Animal Production, Veterinary Regulation,
+     Extension, Students & data requests, Services for LGUs and
+     Administrative. Each tile shows the processing time and fee; pointing
+     to it shows who may avail.
+   - Selecting a tile opens the full procedure: office, classification,
+     type of transaction, who may avail, checklist of requirements with
+     where to secure them, each client step with the office action, fee,
+     processing time and person responsible, and the total time.
+   - "Find a service" box and filters for the public, LGUs, and PVO staff
+     & suppliers.
+   - New "Before you visit" section with the Charter's service pledge, and
+     a Feedback & complaints section from the Charter.
+   - Services menu on every page, homepage links and site search updated.
+     Every service can be found in site search and opens directly.
+
+10. Forms & downloads: Executive Order No. 46, s. 2026
+   - New "Executive orders" group at the top of Forms & downloads with
+     "EO No. 46 S.2026_Complete Ban on the Entry of Live Hogs and Their
+     Products and By-products into the province" (PDF, 4 pages).
+     File: documents/issuances/EO-No-46-s-2026-Complete-Ban-on-Entry-of-Live-Hogs-and-Products.pdf
+   - Added to site search.
+
+11. Forms & downloads: PPCC Resolution No. 1, s. 2026
+   - The "Executive orders" group is now "Executive orders & resolutions"
+     (newest first) and includes "PPCC Resolution No. 1 s.2026 Suggested
+     Retail Price of Swine" (PDF, 2 pages).
+     File: documents/issuances/PPCC-Resolution-No-1-s-2026-Suggested-Retail-Price-of-Swine.pdf
+   - Added to site search.
+
+12. Forms & downloads: Executive Order No. 10, s. 2024
+   - Added "Guidelines on the Movement of Swine and its Products and
+     By-products into the Province" (PDF, 5 pages) to "Executive orders &
+     resolutions", listed last as the oldest issuance.
+     File: documents/issuances/EO-No-10-s-2024-Guidelines-on-Movement-of-Swine-and-Products.pdf
+   - Added to site search.
+
+13. Browser tab icon
+   - The tab icon is now the PVO seal cut out on a transparent background
+     (no white square corners), in the same set of sizes that major
+     organisation websites such as WOAH provide: favicon.ico (16/32/48 px),
+     32 px and 192 px PNGs, a 180 px Apple touch icon for phone home
+     screens, a 270 px Windows tile, and a forest-green browser bar colour
+     on mobile. Files are in images/icons/.
+
+14. Services page: collapsible sections
+   - Each of the seven service sections, "Our service pledge" and "Tell us
+     how we did" now start closed and open with the + button or by
+     selecting the heading. An "Open all sections" link opens or closes all
+     seven service sections at once.
+   - Searching or using a filter opens the sections with matching services.
+     Menu links, site search results and links to a service open the right
+     section automatically. Printing the page opens everything.
+
+18. Document links fixed
+   - Download links for forms, issuances and the rabies poster now match the
+     lowercase file names on the server, so they no longer return "not found".
