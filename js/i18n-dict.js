@@ -193,9 +193,9 @@ window.PVO_I18N_DICT = {
   "May aktibong kaso ng ASF sa 36 barangay sa 8 lungsod at bayan",
   "Adunay aktibong kaso sa ASF sa 36 ka barangay sa 8 ka siyudad ug lungsod"
  ],
- "From the national ASF bulletin #2026-17, as of 24 September 2026. See the provincial zoning map and the national picture.": [
-  "Mula sa pambansang ASF bulletin #2026-17, hanggang 24 Setyembre 2026. Tingnan ang zoning map ng lalawigan at ang pambansang sitwasyon.",
-  "Gikan sa nasyonal nga ASF bulletin #2026-17, hangtod 24 Septyembre 2026. Tan-awa ang zoning map sa probinsya ug ang kahimtang sa tibuok nasud."
+ "From the national ASF bulletin #2026-17, as of 24 September 2026. See the provincial map and the national picture.": [
+  "Mula sa pambansang ASF bulletin #2026-17, hanggang 24 Setyembre 2026. Tingnan ang mapa ng lalawigan at ang pambansang sitwasyon.",
+  "Gikan sa nasyonal nga ASF bulletin #2026-17, hangtod 24 Septyembre 2026. Tan-awa ang mapa sa probinsya ug ang kahimtang sa tibuok nasud."
  ],
  "See the ASF report": [
   "Tingnan ang ulat sa ASF",
@@ -397,9 +397,9 @@ window.PVO_I18N_DICT = {
   "36 barangay sa 8 lungsod at bayan, hanggang 24 Setyembre 2026 <span class=\"nw\">(bulletin #2026-17)</span>",
   "36 ka barangay sa 8 ka siyudad ug lungsod, hangtod 24 Septyembre 2026 <span class=\"nw\">(bulletin #2026-17)</span>"
  ],
- "Provincial ASF report and zoning map": [
-  "Ulat ng lalawigan sa ASF at zoning map",
-  "Report sa probinsya bahin sa ASF ug zoning map"
+ "Provincial ASF report and map": [
+  "Ulat ng lalawigan sa ASF at mapa",
+  "Report sa probinsya bahin sa ASF ug mapa"
  ],
  "ASF monitoring &amp; certification forms": [
   "Mga form para sa ASF monitoring at sertipikasyon",

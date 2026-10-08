@@ -311,10 +311,10 @@ window.PVO_SEARCH = [
  },
  {
   "t": "African Swine Fever (ASF) situation",
-  "d": "ASF bulletin #2026-17, as of 24 September 2026: 36 ASF-positive barangays in 8 cities and municipalities, with the provincial zoning map",
+  "d": "ASF bulletin #2026-17, as of 24 September 2026: 36 ASF-positive barangays in 8 cities and municipalities, with the provincial map of active cases",
   "u": "disease-status.html#asf",
   "k": "Disease situation",
-  "w": "asf swine pig hog zoning bulletin red pink yellow zone"
+  "w": "asf swine pig hog bulletin active cases map"
  },
  {
   "t": "Avian influenza situation",

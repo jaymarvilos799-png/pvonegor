@@ -309,7 +309,7 @@ details.service[open] summary { border-bottom: 1px solid var(--line); border-rad
     border: 1px solid var(--line); border-radius: 20px; font-size: 0.84rem; background: var(--paper-raised);
   }
   /* ASF status: two provincial maps + national bulletin */
-  .asf-maps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; align-items: start; }
+  .asf-maps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; align-items: start; }
   .asf-map-card { margin: 0; }
   .asf-map-card h3 { font-size: 1.05rem; line-height: 1.3; margin: 0 0 12px; min-height: 2.6em; }
   .asf-map-card .lb-single { width: 100%; max-width: 280px; margin: 0; }
